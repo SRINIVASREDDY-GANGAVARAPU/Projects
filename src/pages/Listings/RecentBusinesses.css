@@ -1,0 +1,46 @@
+.recent-businesses-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  height: 30%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: gray;
+}
+
+.card {
+  background:rgb(239, 234, 234);
+
+  padding-right:60px ;
+  margin-right: 40px; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px; 
+  text-align: center;
+  
+  height: 250px;
+}
+
+.card-initial {
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 10px auto 10px auto;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}

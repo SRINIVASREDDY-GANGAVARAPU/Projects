@@ -1,0 +1,176 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color:orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.form-footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.login-form p {
+  margin-top: 20px;
+}
+
+.login-form a {
+  color: #333;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .nav a {
+    margin: 5px 0;
+  }
+
+  .auth-buttons button {
+    margin: 5px 0;
+  }
+
+  .login-form input,
+  .login-form button {
+    width: 100%;
+  }
+
+  .form-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-footer a {
+    margin: 5px 0;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+  
+  .logo {
+    font-size: 22px;
+  }
+
+  .login-form input,
+  .login-form button {
+    width: 95%;
+  }
+  
+  .form-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-footer a {
+    margin: 5px 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .container {
+    width: 80%;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+
+  .login-form input,
+  .login-form button {
+    width: 90%;
+  }
+}

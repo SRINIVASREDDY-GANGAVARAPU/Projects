@@ -1,0 +1,130 @@
+
+.container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  
+  .form-container99 {
+    background: #e1dcdc;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+ 
+  .h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #555;
+  }
+  
+  
+  #service-category,
+  #city,
+  #businessName,
+  #area,
+  #verification-code {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  
+  .privacy-note7 {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  .privacy-note7 span {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .next,
+  .previous,
+  .nextButton {
+    padding: 10px 40px; 
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; 
+  }
+  
+  .previous {
+    background-color: #ccc;
+  }
+  
+  .next:hover,
+  .nextButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .previous:hover {
+    background-color: #999;
+  }
+  
+  
+  .city-dropdown,
+  .area-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 150px;
+    overflow-y: auto;
+    background: white;
+    position: absolute;
+    width: calc(100% - 22px);
+    z-index: 1000;
+  }
+  
+  .city-dropdown li,
+  .area-dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .city-dropdown li:hover,
+  .area-dropdown li:hover {
+    background-color: #f5f5f5;
+  }
+  

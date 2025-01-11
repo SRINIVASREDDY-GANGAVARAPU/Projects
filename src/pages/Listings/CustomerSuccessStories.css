@@ -1,0 +1,59 @@
+.customer-success-stories {
+  text-align: center;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+
+.header1 h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header1 p {
+  font-size: 16px;
+  color: #666;
+}
+
+.stories {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.story-card {
+  position: relative;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.story-card img {
+  width: 100%;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.play-button {
+  font-size: 44px;
+   color: white; 
+  background: transparent;
+  border: none;
+   cursor: pointer; 
+}
+
+.story-card p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}

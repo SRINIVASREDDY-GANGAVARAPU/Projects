@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.app {
+  text-align: center;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button {
+  font-size: 20px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.brand {
+  font-size: 24px;
+  color: #e91e63;
+  margin-right: 10px;
+}
+
+.location-select {
+  padding: 5px;
+}
+
+/* .search-bar {
+  display: flex;
+} 
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}*/
+
+.coaching-container {
+  padding: 40px 20px;
+  background-color: #fff3e0;
+}
+
+h1 {
+  color: #333;
+}
+
+.coaching-options {
+  margin: 20px 0;
+}
+
+.options-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.option-button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #ffe0e0;
+}
+
+.arrow {
+  color: #e91e63;
+  margin-left: 10px;
+}
+
+.get-started {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #ff3d3d;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 24px;
+  color: #e91e63;
+  margin-bottom: 5px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #555;
+}
